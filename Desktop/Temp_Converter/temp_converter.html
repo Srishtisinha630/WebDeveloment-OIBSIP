@@ -73,19 +73,16 @@
     </style>
 </head>
 <body>
-    <form id="tempCalc" onsubmit="calculateTemp(); return false">
-        <label for="temp">Enter the temperature</label>
-      <br/><input type="number" name="temp" id="temp">
-        <select name="temp_diff" id="temp_diff">
-            <option value="cel">°Celsius</option>
-            <option value="fah">°Fahrenheit</option>
-        </select><br />
+    <form id="tempCalc">
+      <label for="temp">Enter the temperature</label>
+      <br /><input type="number" name="temp" id="temp" />
+      <select name="temp_diff" id="temp_diff">
+        <option value="cel">°Celsius</option>
+        <option value="fah">°Fahrenheit</option></select
+      ><br />
 
-        <input type="submit" name="temp"><br/>
-        <span id="resultContainer"></span>
-    
-    
-    
+      <input type="submit" name="temp" /><br />
+      <span id="resultContainer"></span>
     </form>
     <script src="temp_converter.js"></script>
 </body>
